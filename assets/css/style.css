@@ -1,0 +1,119 @@
+.icon {
+    color: blue;
+}
+
+.icon:hover {
+    color: navy;
+}
+
+body {
+    background-color: #f0f0f0; /* Change the background color */
+    font-family: 'Arial', sans-serif; /* Change the default font */
+    color: #333;
+}
+
+abbr {
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline;
+}
+abbr:hover{
+    cursor: pointer;
+    color: darkred;
+}
+
+abbr:hover::after {
+    position: absolute;
+    left: 100%;
+    display: block;
+    padding: 10px;
+    background: #FFDF00;
+    color: black;
+    content: attr(title);
+    width: 150px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.card-header {
+    background-color: #6b4226; /* Change the background color */
+    padding: 15px;
+    text-transform: uppercase; /* Change the text transformation */
+    font-weight: 600; /* Change the font weight */
+    border-radius: 8px;
+    color: #fff;
+}
+
+.f-bold {
+    font-weight: 700;
+}
+
+.box {
+    padding-bottom: 500px;
+}
+
+#progress {
+
+    bottom: 22px;
+    right: 22px;
+    border-radius: 50%;
+    margin: 13px 0 0 0;
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+#creator,
+#progress {
+    border: 2px solid #4e6c7a; /* Change the border color */
+    border-radius: 4px;
+    background: #4e6c7a; /* Change the background color */
+    outline: none;
+    color: #fff;
+    transition: background 0.3s ease-in-out;
+
+}
+
+.dot {
+    height: 60px; /* Adjust the height */
+    width: 60px; /* Adjust the width */
+    background-color: #cc6600; /* Change the background color */
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.App {
+    text-align: center;
+    color: green;
+}
+
+.card-head2 {
+    background-color: #d9d9d9; /* Change the background color */
+    color: #333; /* Change the text color */
+    font-weight: 700;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+
+.value-container {
+    position: relative;
+    font-family: "Helvetica", sans-serif; /* Change the font family */
+    font-size: 14px; /* Change the font size */
+    color: #993366; /* Change the text color */
+    font-weight: 600; /* Change the font weight */
+    text-align: center;
+    padding: 12px;
+
+}
+
+.habit-days {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-here {
+    border: 1px solid #999; /* Change the border color */
+    border-radius: 6px;
+    font-size: 18px; /* Change the font size */
+    padding: 8px;
+}
